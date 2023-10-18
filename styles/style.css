@@ -96,6 +96,7 @@ header{
 
 
 
+
 .main-wrap{
  max-width: 1300px;
  margin: 0 auto;
@@ -1623,6 +1624,8 @@ footer>.main-wrap>.row-top>.col-top>.social-media-wrap>.sm-item>img{
     z-index: 9999;
     background: #fff;
     height: 102px;
+    position: fixed;
+    z-index: 1000;
   }
 
   .mobi-nav.active{
