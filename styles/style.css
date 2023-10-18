@@ -1571,6 +1571,10 @@ footer>.main-wrap>.row-top>.col-top>.social-media-wrap>.sm-item>img{
   .experience>.main-wrap>.experience-wrap>.experience-col > .experience-item>.experience-item-descr{
     padding: 1.917vw 2.917vw;
   }
+
+  .news > .main-wrap > .swiper > .swiper-wrapper{
+    height: 360px !important;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -1773,6 +1777,7 @@ footer>.main-wrap>.row-top>.col-top>.social-media-wrap>.sm-item>img{
 
 }
 
+
 .news>.main-wrap> h2{
   font-size: 5vw;
   line-height: 5.2vw;
@@ -1940,7 +1945,7 @@ footer>.main-wrap>.row-top>.col-top>.social-media-wrap>h3{
 }
 
 .news > .main-wrap > .swiper > .swiper-wrapper{
-  height: 360px;
+  height: 100%;
 }
 
 
