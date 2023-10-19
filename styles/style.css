@@ -92,6 +92,9 @@ header{
  display: flex;
  align-items: center;
  width: 100%;
+ position: fixed;
+ justify-content: center;
+ top: 0;
 }
 
 
@@ -104,7 +107,22 @@ header{
  align-items: center;
  /* padding: 0 3.846vw; */
 }
+.absol{
+  top: 0;
+  z-index: 9999;
+  background: #fff;
+  height: 102px;
+  position: fixed;
+  width: 100%;
+  /* z-index: 1000; */
+}
 
+.fix1{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+}
 .logo{
   margin-right: 5.385;
 }
@@ -247,6 +265,7 @@ header{
 
 .slider{
   height: 442px;
+  margin-top: 102px;
 }
 .slider>div{
   height: 100%;
@@ -1613,7 +1632,7 @@ footer>.main-wrap>.row-top>.col-top>.social-media-wrap>.sm-item>img{
   .mobi-nav{
     display: block;
     position: absolute;
-    top: -100%;
+    top: -150%;
     width: 100%;
     background: #fff;
     transition-duration: .6s;
@@ -1625,11 +1644,11 @@ footer>.main-wrap>.row-top>.col-top>.social-media-wrap>.sm-item>img{
     background: #fff;
     height: 102px;
     position: fixed;
-    z-index: 1000;
+    /* z-index: 1000; */
   }
 
   .mobi-nav.active{
-    position: absolute;
+    position: fixed;
     top: 102px;
     z-index: 10;
   }
